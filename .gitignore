@@ -1,0 +1,13 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+__pycache__/
+
+# Archivos de Airflow
+dags/__pycache__/
+logs/
+airflow.cfg
+
+# Archivos de datos grandes o temporales
+*.csv
+*.txt
