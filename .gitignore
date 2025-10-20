@@ -10,4 +10,4 @@ airflow.cfg
 
 # Archivos de datos grandes o temporales
 *.csv
-*.txt
+# *.txt

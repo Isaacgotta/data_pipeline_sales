@@ -49,3 +49,8 @@ def generate_sales_report(
     report = df.groupby(["mes", "producto_id"])["monto"].sum().reset_index()
     report.to_csv(output_path, index=False)
     print(f"Reporte de ventas generado en '{output_path}'.")
+
+
+# if __name__ == "__main__":
+#     clean_and_transform_sales_data()
+#     generate_sales_report()
